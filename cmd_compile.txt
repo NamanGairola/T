@@ -1,0 +1,23 @@
+C 
+gcc filename.c
+./a.exe
+
+C/C++
+g++ filename.cpp
+./a.exe
+
+Java 
+javac filename.java
+java classname   //same as filename mostly
+
+Python
+python filename.py
+
+Rust
+1
+rust filename.rs
+cmd - filename.exe
+shell - ./filename
+2
+cargo filename
+cargo run
