@@ -19,5 +19,5 @@ rust filename.rs
 cmd - filename.exe
 shell - ./filename
 2
-cargo filename
+cargo new filename
 cargo run
