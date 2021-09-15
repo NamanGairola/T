@@ -1,0 +1,13 @@
+git config --global user.name "name"
+git config --global user.email "email" 
+git config --global -e        //-e or --edit
+git config --system -e
+git config --local -e
+git config --global credential.helper store
+git add filename.txt
+git add .
+git commit
+git branch
+git branch branchname
+git checkout branchname
+git branch -d branchname
