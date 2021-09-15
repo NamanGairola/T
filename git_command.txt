@@ -5,7 +5,7 @@ git config --system -e
 git config --local -e
 git config --global credential.helper store
 git clone url
-git intit
+git init
 git remote add orgin url
 git status
 git add filename.txt
