@@ -4,9 +4,15 @@ git config --global -e        //-e or --edit
 git config --system -e
 git config --local -e
 git config --global credential.helper store
+git clone url
+git intit
+git remote add orgin url
+git status
 git add filename.txt
 git add .
 git commit
+git push origin master
+git pull
 git branch
 git branch branchname
 git checkout branchname
