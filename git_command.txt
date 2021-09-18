@@ -3,6 +3,7 @@ git config --global user.email "email"
 git config --global -e        //-e or --edit
 git config --system -e
 git config --local -e
+git config --global core.editor "code --wait"  // to set vs code as default editor
 git config --global credential.helper store
 git clone url
 git init
