@@ -13,7 +13,11 @@ git add filename.txt
 git add .
 git commit
 git push origin master
+git pusn -u origin branchame
 git push origin branchname // not tested 
+git pull origin/master
+git pull origin/branchname
+git fetch origin branchname 
 git pull
 git branch
 git branch branchname
