@@ -23,3 +23,4 @@ git branch branchname
 git checkout branchname
 git branch -d branchname
 git push origin -d branchname  // to delete online
+git checkout -b brnachname origin/branchname
