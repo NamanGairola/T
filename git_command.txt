@@ -4,10 +4,10 @@ git config --global -e        //-e or --edit
 git config --system -e
 git config --local -e
 git config --global core.editor "code --wait"  // to set vs code as default editor
-git config --global credential.helper store
-git clone url
+git config --global credential.helper store // help to store credential
+git clone url // to clone a repo
 git init
-git remote add orgin url
+git remote add orgin url // to add a existing repo localy to a url
 git status
 git add filename.txt
 git add .
@@ -18,9 +18,9 @@ git push origin branchname
 git pull origin/master
 git fetch origin branchname 
 git pull
-git branch
-git branch branchname
-git checkout branchname
-git branch -d branchname
+git branch // to see branch
+git branch branchname // to make new branch
+git checkout branchname // to switch branch
+git branch -d branchname // delete branch localy
 git push origin -d branchname  // to delete online
-git checkout -b branchname origin/branchname
+git checkout -b branchname origin/branchname // to make branch with other's branch
