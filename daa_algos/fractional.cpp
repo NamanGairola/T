@@ -21,9 +21,9 @@ int main()
     sort(ve.begin(),ve.end(),compare);
     for(i=0;i<n && k>0;i++)
     {
-        if(k>ve[i].second.first)
+        if(k>ve[i].second.second)
         {
-            m=ve[i].second.first;
+            m=ve[i].second.second;
         }
         else
         {
