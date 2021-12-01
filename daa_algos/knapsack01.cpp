@@ -14,15 +14,15 @@ int knapsackr(int w[],int v[],int n,int k)
     }
     else
     {
-        return max(knapsackr(w,v,n-1,k),v[n-1]+knapsackr(w,v,n-1,k-v[n-1]));
+        return max(knapsackr(w,v,n-1,k),v[n-1]+knapsackr(w,v,n-1,k-w[n-1]));
     }
 }
 int knapsacki(int w[],int v[],int n,int k)
 {
-    int arr[n+1][n+1];
-    for(i=0;i<=n;i++)
+    int arr[n+1][k+1];
+    for(i=0;i<=;i++)
     {
-        for(j=0;j<=n;j++)
+        for(j=0;j<=k;j++)
         {
             if(i==0 || j==0)
             {
@@ -34,11 +34,11 @@ int knapsacki(int w[],int v[],int n,int k)
             }
             else
             {
-                arr[i][j]=max(arr[i-1][j],p[i-1]+arr[i][j-w[i-1]]);
+                arr[i][j]=max(arr[i-1][j],v[i-1]+arr[i][j-w[i-1]]);
             }
         }
     }
-    return arr[n][n]
+    return arr[n][k];
 }
 int main()
 {
